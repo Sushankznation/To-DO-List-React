@@ -41,6 +41,7 @@ export default function App() {
           <h1> ToDo List </h1>
           <br />
           <input
+            value={inputlist}
             type="text"
             placeholder="Add Item"
             onChange={ChangeHandler}
